@@ -3,63 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Веб-Студия "WebMasterPro"</title>
+    <title>WebMasterPro — Создание Современных Сайтов</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background: linear-gradient(120deg, #f0f0f0, #dcdcdc);
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(120deg, #1e1e2f, #3a3a5d);
+            color: white;
             text-align: center;
             padding: 20px;
         }
         .container {
-            max-width: 800px;
+            max-width: 900px;
             margin: auto;
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background: rgba(255, 255, 255, 0.1);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+            animation: fadeIn 1.5s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        h1, h2 {
+            font-weight: bold;
+        }
+        .highlight {
+            color: #ffcc00;
         }
         img {
             width: 100%;
-            border-radius: 10px;
-            margin-top: 20px;
+            border-radius: 15px;
+            margin: 20px 0;
+            transition: transform 0.3s ease-in-out;
+        }
+        img:hover {
+            transform: scale(1.05);
         }
         .btn {
             display: inline-block;
             margin-top: 20px;
-            padding: 10px 20px;
-            background: #007bff;
-            color: white;
+            padding: 15px 30px;
+            background: #ffcc00;
+            color: #1e1e2f;
             text-decoration: none;
-            border-radius: 5px;
-            font-size: 18px;
+            border-radius: 8px;
+            font-size: 20px;
+            font-weight: bold;
+            transition: background 0.3s;
         }
         .btn:hover {
-            background: #0056b3;
+            background: #ffaa00;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Создание сайтов с WebMasterPro</h1>
-        <p>Мы разрабатываем стильные, удобные и быстрые сайты для вашего бизнеса!</p>
-        <img src="001.jpg" alt="Наши работы">
-        <h2>Что мы предлагаем?</h2>
+        <h1>WebMasterPro — <span class="highlight">Будущее Вашего Бизнеса</span></h1>
+        <p>Создаем стильные, быстрые и удобные сайты, которые приносят прибыль!</p>
+        <img src="001.jpg" alt="Пример нашего сайта">
+        <h2>Наши Услуги:</h2>
         <ul>
-            <li>Создание адаптивных сайтов</li>
-            <li>SEO-оптимизация</li>
-            <li>Подключение доменов и хостинга</li>
-            <li>Поддержка и обновление сайтов</li>
-            <li>Интеграция с социальными сетями</li>
+            <li>Разработка современных сайтов</li>
+            <li>SEO-оптимизация для роста в поисковиках</li>
+            <li>Подключение доменов и надежного хостинга</li>
+            <li>Техническая поддержка 24/7</li>
+            <li>Продвижение в соцсетях</li>
         </ul>
-        <h2>Почему выбирают нас?</h2>
+        <h2>Почему Мы?</h2>
         <ul>
-            <li>Быстрое выполнение заказов</li>
-            <li>Доступные цены</li>
-            <li>Индивидуальный подход</li>
-            <li>Современный дизайн</li>
+            <li>Индивидуальный подход к каждому проекту</li>
+            <li>Современный дизайн и адаптивность</li>
+            <li>Доступные цены и прозрачные условия</li>
+            <li>Гарантия результата</li>
         </ul>
-        <a href="tel:+1234567890" class="btn">Позвоните нам</a>
+        <a href="tel:+1234567890" class="btn">Связаться с нами</a>
     </div>
 </body>
 </html>
+
